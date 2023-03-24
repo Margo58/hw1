@@ -5,32 +5,39 @@
   }
   body{
     font-family: 'Montserrat';
-
 }
+
 .top{
     width: 1440px;
     height: 1024px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(0001.jpg);
     background-image: url(img/hw1.jpg);
 }
-
+.header{
+    padding-left: 120px;
+    padding-top: 217px;
+}
 .main__header{
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 78px;
     color: #FFFFFF;
+    width: 788.78px;
 }
 
 .text{
+    margin-top: 32px;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 32px;
     color: #FFFFFF;
+    width: 481px;
 }
 
 .header__button{
+    margin-top: 44px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -56,14 +63,22 @@
 .for{
     display: flex;
     gap: 32px;
+    padding-left: 120px;
+    padding-top: 128px;
 }
 .for__item{
     width: 379px;
     height: 300px;
-    left: 120px;
-    top: 1152px;
     background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
     border-radius: 16px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    align-items: flex-end;
+    line-height: 32px;
+    padding: 32px;
 }
 
 .for__item_1{
