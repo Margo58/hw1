@@ -1,6 +1,79 @@
-.header{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Montserrat';
+
+}
+.top{
     width: 1440px;
     height: 1024px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(0001.jpg);
     background-image: url(img/hw1.jpg);
+}
+
+.main__header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+}
+
+.text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.header__button{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 234.06px;
+    height: 48.6px;
+    left: 120px;
+    top: 482.11px;
+    background: #9C0332;
+    border-radius: 30px;
+}
+
+.for{
+    width: 1440px;
+    height: 556px;
+    left: 0px;
+    top: 1024px;
+    background: #000915;
+    background-image: url(img/hw2.jpg);
+}
+
+.for{
+    display: flex;
+    gap: 32px;
+}
+.for__item{
+    width: 379px;
+    height: 300px;
+    left: 120px;
+    top: 1152px;
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
+    border-radius: 16px;
+}
+
+.for__item_1{
+    background-image: url(img/for1.jpg);
+}
+
+.for__item_2{
+    background-image: url(img/for2.jpg);
+}
+
+.for__item_3{
+    background-image: url(img/for3.jpg);
 }
