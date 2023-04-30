@@ -52,33 +52,5 @@
     width: 300px;
     height: 300px;
   }
-  .sevason__block{
-
-  }
-  .sevason__title {
-    font-size: 32px;
-    line-height: 39px;
-    text-align: center;
-  }
-  .sevason__page {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
-    width: 343px;
-  }
-  .sevason__button {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-  }
-  .sevason__block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .sevason__info-img {
-    width: 344px;
-    height: 236px;
-  }
+  
 }/*# sourceMappingURL=mobile.css.map */
