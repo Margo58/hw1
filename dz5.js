@@ -60,16 +60,17 @@ function fun (num1, num2) {
   fun(num1,num2);
 
 
-let num=prompt(`назовите число возводимое в куб`);
+
 function func(){
+  let num = prompt(`назовите число возводимое в куб`);
 if(!isNaN(`num`)) {
-  return(console.log(num**3));
+  return num**3;
 }
 else {
-  console.log(`не число`)
+  console.log(`не число`);
 } 
 }
-func(num);
+func `num`;
 
 
 const pi = 7.62;
