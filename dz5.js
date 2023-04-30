@@ -17,6 +17,7 @@ function min(a, b) {
   console.log(min(a,b))
 
 
+  
 function func(n){
     if(n % 2 == 0){
         return'Число четное';
