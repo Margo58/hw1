@@ -39,7 +39,7 @@ function howManyYears () {
     const userYears= prompt('Сколько тебе лет?')
     if (userYears < 0) {
         alert('Вы ввели неправильное значение')
-    } else  if (userYears<=12){
+    } else  if (userYears <= 12){
       alert('Привет, друг!')  
     }else{
         alert('Добро пожаловать')
@@ -71,7 +71,7 @@ else {
 func(num);
 
 
-const pi = 3.14;
+const pi = 7.62;
 
  function getArea () {
     return (this.radius ** 2) * pi;
