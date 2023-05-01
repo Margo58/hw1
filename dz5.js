@@ -63,14 +63,15 @@ function fun (num1, num2) {
 
 function func(){
   let num = prompt(`назовите число возводимое в куб`);
-if(!isNaN(`num`)) {
-  return num**3;
+  let n = num**3;
+if (isNaN(num)) {
+  return 'Это не число';
 }
 else {
-  console.log(`не число`);
+  return `N в кубе равняется ${n}`
 } 
 }
-func `num`;
+console.log(func());
 
 
 const pi = 7.62;
