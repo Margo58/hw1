@@ -323,6 +323,32 @@ a {
     width: 300px;
     height: 300px;
   }
+  .sevason {
+    background: #000915;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 233px;
+    padding-bottom: 233px;
+    justify-content: space-between;
+  }
+  .sevason__block {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .sevason__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  .sevason__button {
+    border: 1px solid #9c0332;
+  }
 }
 @media (max-width: 767px) {
   .center {
@@ -377,6 +403,14 @@ a {
   .for__item_3 {
     width: 300px;
     height: 300px;
+  }
+  .sevason {
+    display: flex;
+    align-items: center;
+    height: 735px;
+  }
+  .sevason__button {
+    margin-left: 0%;
   }
   .sevason__title {
     font-size: 32px;
