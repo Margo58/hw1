@@ -38,4 +38,5 @@ function rememberWords(){
         alert("Вы ответили неверно!")
     }
 
+    
 }
