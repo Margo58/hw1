@@ -75,3 +75,22 @@ const timer = (data) => {
 };
 
 timer(30);
+
+//задание 5
+function calling() {
+    console.log('Звоню!');
+    beeps();
+  }
+  
+  function beeps() {
+    setTimeout(() => {
+      console.log('Прошла одна секунда');
+      talk();
+    }, 1000);
+  }
+  
+  function talk() {
+    console.log('Привет, Глеб!');
+  }
+  
+  calling();
