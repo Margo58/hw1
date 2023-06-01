@@ -7,6 +7,8 @@ if (inputPassword === password) {
     alert('Пароль введен неправильно');
 }
 
+
+
 const c = 0;
 c >= 0 && c <= 10 ?
 console.log('Верно') : console.log('Неверно');
